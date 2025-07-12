@@ -22,8 +22,9 @@ const Navbar = () => {
   const navItems = [
     { name: "Home", path: "/" },
     { name: "Search", path: "/search" },
-    { name: "Nearby Temples", path: "/nearby" },
-    { name: "Add Temples", path: "/addTemple" },
+   // { name: "Nearby Temples", path: "/nearby" },
+    //{ name: "Add Temples", path: "/addTemple" },
+        { name: "Contact", path: "/contact" },
     { name: "About Us", path: "/about" },
     {
       name: "Profile",
@@ -31,10 +32,12 @@ const Navbar = () => {
         { name: "Your Favorites", path: "/favourites" },
         { name: "Near By Temples", path: "/nearby" },
         { name: "Your Contributions", path: "/contributions" },
-        { name: "Signup", path: "/signup" },
-        { name: "Login", path: "/login" },
+       // { name: "Signup", path: "/signup" },
+       // { name: "Login", path: "/login" },
+        //{ name: "Logout", path: "/logout" },
       ],
     },
+    
   ];
 
   return (
@@ -46,10 +49,10 @@ const Navbar = () => {
           <Link to="/" className="flex items-center space-x-2">
             <img
               src="./images/logo3.png"
-              alt="Temples of India Logo"
+              alt="Bharat ke MandirLogo"
               className="w-10 h-10 object-contain"
             />
-            <h2 className="text-lg font-semibold text-black">Temples of India</h2>
+            <h2 className="text-lg font-semibold text-black">Bharat Ke Mandir</h2>
           </Link>
 
           {/* Menu Items */}
